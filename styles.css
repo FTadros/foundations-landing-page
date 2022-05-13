@@ -1,0 +1,34 @@
+body{
+    background-color: #1f2937;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-container div{
+    display: flex;
+    border: 1px solid purple;
+    height: 100px;
+    flex: 1 1 auto;
+    margin: 10px;
+}
+
+.intro div{
+    display: flex;
+    border: auto;
+    height: 80px;
+}
+
+.intro-text{
+    display: flex;
+    border: 1px solid red;
+}
+
+.intro-image{
+    background-color: grey;
+    height: 80px;
+    border: 1px solid green;
+}
